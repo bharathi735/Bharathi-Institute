@@ -1,0 +1,96 @@
+.first{
+  background-color:coral;
+  height: 30px;
+  padding: 10px;
+  display:flex;
+  align-items: center;
+}
+.first a,.first i{
+    color:black;
+    margin-left: 20px;
+  }
+  .social{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .social i{
+    margin-left: 20px;
+  }
+  .social i:hover{
+    font-size: 20px;
+  }  
+.second li{
+
+  list-style-type:none;
+  text-decoration: none;
+}
+.second ul{
+justify-content: space-around;
+display: flex;
+margin:20px;
+justify-content:space-around;
+
+}
+
+.second img{
+  width: 50px;
+  
+  position: absolute;
+  left:40px;
+
+}
+.bharathi{
+  position:absolute;
+  top:70px;
+  left:100px;
+  
+}
+body{
+  background-image: url("institute.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second{
+  margin-right: 500px;
+
+}
+
+.text{
+  margin-top: 150px;
+  text-align: center;
+  margin-right: 500px;
+}
+.text p{
+  line-height: 30px;
+  font-size: larger;
+
+}
+.text h1{
+  color: coral;
+
+}
+.text img{
+  width: 300px;
+  border-radius: 50px;
+  position: absolute;
+  top:250px;
+  right: 250px;
+  
+ animation: myAnimation 4s linear 0s infinite alternate;
+}
+@keyframes myAnimation{
+  from{
+  right: 10px;
+  }
+  to{
+  right:220px;
+  }
+}
+
+@media screen and (max-width:500px){
+  div{
+    background-color: navajowhite;
+  }
+
+}
