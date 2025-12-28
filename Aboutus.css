@@ -138,12 +138,12 @@ to{
   top:0px;
   left:200px;
 }
-.advertisment img{   
+.advertisment img{
       width:150px;
       height: 150px;
       padding: 20px;
-     position: absolute;
-     top:0%;
+      position: absolute;
+      top:0%;
       background-color:rgb(253, 248, 248);
       animation: myAnimation  6s linear  infinite ;
       animation-direction: normal;
@@ -151,10 +151,10 @@ to{
     }
     @keyframes myAnimation {
   0% {
-    transform: translateX(-250px); 
+    transform: translateX(-250px);
   }
   100% {
-     transform: translateX(calc(100vw + 250px));
+    transform: translateX(calc(100vw + 250px));
   }
 }
 
@@ -165,12 +165,3 @@ to{
   position: relative;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
