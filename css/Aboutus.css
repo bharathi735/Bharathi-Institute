@@ -1,9 +1,17 @@
-.one img{
-    width:1400.60px;
-    height:732px;
-    opacity: 0.9;
-
+.one {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
+
+.one img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+
 .one h1{
     position: absolute;
     top: 200px;
@@ -64,7 +72,8 @@ justify-content:space-around;
   
 }
 .second{
-margin-right: 500px;
+margin-right:500px;
+width: 200vh;
 
 
 }
@@ -120,16 +129,20 @@ to{
     transform: translateY(100px);
   }
 }
-.footer{
-  background-color:cornflowerblue;
-  width:1330px;
+.footer {
+  background-color: cornflowerblue;
+  width: 100%;         
   height: 500px;
   margin-top: 100px;
-  
-  border-radius :5px;
-  
-  
+  border-radius: 5px;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;  
+}
+
 .footer img{
   width: 50px;
   position: relative;
@@ -148,7 +161,7 @@ to{
       position: absolute;
       top:0%;
       background-color:rgb(253, 248, 248);
-      animation: myAnimation  6s linear  infinite ;
+      animation: myAnimation  10s linear  infinite ;
       animation-direction: normal;
       position: relative;
     }
@@ -168,8 +181,61 @@ to{
   position: relative;
   cursor: pointer;
 }
+.advertisment:hover img {
+  animation-play-state: paused;
+}
+.ad-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.ad-content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.ad-content p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
 .para{
   margin-left:50px;
-  
+  position: relative;
+  top:-30px;
+  font-size: 16px;
 
+}
+.footer ul{
+  list-style-type: none;
+  line-height: 2.0;
+  position: relative;
+  right: 350px;
+  top:-30px;
+}
+.links{
+  list-style-type: none;
+  line-height: 2.0;
+  position: relative;
+  left: 200px;
+  top:-145px;
+}
+.contact{
+    
+  line-height: 2.0;
+  font-size: 16px;
+  list-style-type:none;
+  position:absolute;
+  left:1000px;
+  bottom: -1960px;
+ 
+}
+.buttom{
+  position: relative;
+  bottom: -300px;
+  right:850px;
 }
