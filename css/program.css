@@ -91,3 +91,23 @@ body{
   top:950px;
   left:350px;
 }
+.content{
+  margin-top: 150px;
+  text-align: center;
+  margin-right: 500px;
+
+}
+
+@media screen and (max-width:1200px) {
+
+  .second li {
+    display: none;
+  }
+
+}
+@media screen and (max-width:700px){
+        .content {
+    margin: 100px 20px;
+    text-align: center;
+  }
+}

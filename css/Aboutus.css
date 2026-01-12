@@ -225,17 +225,91 @@ html, body {
   top:-145px;
 }
 .contact{
-    
-  line-height: 2.0;
-  font-size: 16px;
-  list-style-type:none;
-  position:absolute;
-  left:1000px;
-  bottom: -1960px;
- 
+  position: relative;
+  margin: -390px;
+  
 }
+
+.contact li{
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 30px;
+}
+
 .buttom{
   position: relative;
   bottom: -300px;
   right:850px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  /* HERO SECTION */
+  .one h1{
+    left: 20px;
+    top: 120px;
+    transform: none;
+    font-size: 22px;
+  }
+
+  .one p{
+    left: 20px;
+    top: 180px;
+    margin-left: 0;
+    transform: none;
+    font-size: 16px;
+    width: 90%;
+  }
+
+  /* PARA TEXT */
+  .para{
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  /* NAV ITEMS */
+  .second ul{
+    justify-content: center;
+  }
+
+  .second li{
+    display: none;
+  }
+
+  .second{
+    margin-right: 0;
+    width: 100%;
+  }
+
+  /* IMAGES STACK */
+  .images1 img,
+  .images2 img,
+  .images3 img{
+    position: static;
+    margin: 20px auto;
+    display: block;
+    animation: none;
+  }
+
+  /* FOOTER */
+  .footer{
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .footer ul,
+  .links,
+  .contact{
+    position: static;
+    margin: 20px;
+    text-align: left;
+  }
+
+  .buttom{
+    position: static;
+    margin: 20px;
+  }
 }
