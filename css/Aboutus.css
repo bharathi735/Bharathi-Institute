@@ -103,7 +103,7 @@ width: 200vh;
   top:-250px;
   border: 2px solid black;
   animation: moveBox 2s ease-in-out 1s infinite alternate;
-  margin-bottom: 200px;
+  
 }
 @keyframes moveBox{
   from{left:10px;
@@ -187,11 +187,13 @@ html, body {
 .ad-content {
   text-align: center;
   padding: 40px 20px;
+   
 }
 
 .ad-content h2 {
   font-size: 28px;
   margin-bottom: 10px;
+   
 }
 
 .ad-content p {
@@ -293,23 +295,85 @@ html, body {
     display: block;
     animation: none;
   }
+}
+  /* FOOTER STYLES */
+footer {
+  background-color:rgb(68, 73, 133);
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
 
-  /* FOOTER */
-  .footer{
-    height: auto;
-    padding-bottom: 40px;
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.footer-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.footer-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-list li a:hover {
+  color: #2ecc71;
+}
+
+.footer-list li:first-child {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-lists {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
-  .footer ul,
-  .links,
-  .contact{
-    position: static;
-    margin: 20px;
-    text-align: left;
-  }
-
-  .buttom{
-    position: static;
-    margin: 20px;
+  .footer-list {
+    text-align: center;
   }
 }
+
